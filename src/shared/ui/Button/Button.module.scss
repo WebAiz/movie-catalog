@@ -1,0 +1,17 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 15px;
+  gap: 10px;
+  background: #6627ff;
+  border-radius: 5px;
+  font-family: "Gilroy", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  color: #fcfcff;
+  height: max-content;
+  width: max-content;
+}

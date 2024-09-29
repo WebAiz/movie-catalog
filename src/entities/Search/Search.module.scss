@@ -1,0 +1,18 @@
+.search {
+  width: 280px;
+  position: relative;
+  height: 40px;
+
+  &__icon {
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    transform: translate(0, -50%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .search {
+    width: auto;
+  }
+}

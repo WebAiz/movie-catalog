@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 38px;
+
+  &__profile {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    &__profile {
+      &_name {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    position: relative;
+    gap: 10px;
+
+    &__profile {
+      position: absolute;
+      top: 10px;
+      right: 0;
+
+      &_name {
+        display: none;
+      }
+    }
+
+    &__logo {
+      width: 270px;
+    }
+  }
+}

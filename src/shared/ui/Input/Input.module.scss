@@ -1,0 +1,23 @@
+.input {
+  display: flex;
+  flex-wrap: nowrap;
+  outline: transparent;
+  border: 1px solid transparent;
+  width: 100%;
+  padding: 10px 15px;
+  font-family: "Gilroy", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #929bbc;
+
+  &__label {
+    display: flex;
+    flex: 1;
+    box-sizing: border-box;
+    background: #fcfcff;
+    border: 1px solid #e6eaf5;
+    border-radius: 5px;
+  }
+}

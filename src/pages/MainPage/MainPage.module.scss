@@ -1,0 +1,47 @@
+.container {
+  &__result {
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    margin-bottom: 57px;
+
+    &_text {
+      font-family: "Gilroy", serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 140%;
+      color: #000000;
+      margin: 0;
+    }
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 56px;
+    margin-bottom: 40px;
+  }
+
+  &__empty_list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6627ff;
+    font-weight: 500;
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    &__result {
+      margin-bottom: 30px;
+    }
+    &__list {
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 10px;
+      row-gap: 30px;
+    }
+  }
+}
